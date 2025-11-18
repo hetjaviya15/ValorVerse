@@ -63,14 +63,20 @@ header{
 .head-right{
     display: flex;
 }
+.head-right p:hover{
+    transform: scale(1.4,1.4);
+    transition: 0.4s;
+}
 .head-right a{
     text-decoration: none;
-    padding-left: 25px;
+    padding-left: 30px;
+    padding-right: 10px;
     color: white;
     font-size: 15px;
 }
 .head-right a:hover{
-    animation-name: moving:
+    color: #edff66;
+    transition: 0.3s;
 }
 .hero-section{
     position: relative;
